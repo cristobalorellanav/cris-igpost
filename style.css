@@ -1,0 +1,87 @@
+body {
+    background-color: rgb(20, 19, 19);
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    font-family: "Roboto", sans-serif;
+    height: 100vh;
+}
+
+.Postinstagram{
+    width: 450px;
+    height: auto;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.Postinstagram .header {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    gap: 10px;
+    box-sizing: border-box;
+}
+
+.Postinstagram .header .postinformacion {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+    
+}
+.Postinstagram .header .postinformacion h5 {
+    margin: 0;
+    padding: 0;
+    
+}
+
+.Postinstagram .header .postinformacion .name {
+    color: grey;
+    margin: 0;
+    padding: 0;
+}   
+
+.Postinstagram .header .menu {
+    margin-left: auto;
+}
+
+.Postinstagram .imagen {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.Postinstagram .imagen img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.Postinstagram .texto {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.Postinstagram .texto .iconos {
+    width: 100%;
+    display: flex;
+    
+}
+.Postinstagram .texto .iconos i {
+    margin: 0 2px;
+}
+.Postinstagram .texto .iconos i:last-child {
+    margin-left: auto;
+}
+
+.Postinstagram .texto .iconos + p {
+    font-size: 16px;
+    text-align: justify;
+    margin-bottom: 2px;
+}
+.Postinstagram .texto p {
+    font-size: 16px;
+    text-align: justify;
+}
